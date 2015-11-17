@@ -107,6 +107,6 @@ crashlytics.properties
 crashlytics-build.properties
 
 # Django
-media/
-static/
+/media/
+/static/
 *.sqlite
