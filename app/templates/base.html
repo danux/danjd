@@ -1,0 +1,230 @@
+{% load static %}<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Daniel Davies - Backend Developer</title>
+        <meta name="author" content="Daniel Davies">
+		<link href="{% static 'css/bootstrap.min.css '%}" rel="stylesheet">
+		<link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
+		<link href="{% static 'css/custom.css' %}" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Resume Starts -->
+		<div class="resume">
+			<!-- Sidebar -->
+			<div class="r-sidebar">
+				<div class="r-sidebar-item">
+					<!-- Sidebar Image -->
+					<div class="img">
+						<img src="{% static 'img/daniel-davies.jpg' %}" alt="An image of Daniel Davies" class="img-responsive" />
+					</div>
+					<!-- Name -->
+					<div class="name">
+						<h3>Daniel Davies</h3>
+						<small>Backend Developer</small>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!-- Detail -->
+				<div class="r-detail">
+					<table>	
+						<tr>
+							<th>Name</th>
+							<td>Daniel Davies</td>
+						</tr>
+						<tr>
+							<th>Studied</th>
+							<td>Computer Science</td>
+						</tr>
+						<tr>
+							<th>Qualification</th>
+							<td>BSc hons</td>
+						</tr>
+						<tr>
+							<th>Working</th>
+							<td>8 years</td>
+						</tr>
+						<tr>
+							<th>Email</th>
+							<td>danieldavies127@gmail.com</td>
+						</tr>
+						<tr>
+							<th>Location</th>
+							<td>Bristol, UK</td>
+						</tr>
+					</table>
+				</div>
+				<!-- Social -->
+				<div class="social">
+                    <a href="https://github.com/danux" class="github"><i class="fa fa-github"></i></a>
+                    <a href="https://twitter.com/danux" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="https://uk.linkedin.com/in/danux" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/danux86" class="facebook"><i class="fa fa-facebook"></i></a>
+                </div>
+			</div>
+			<!-- Main -->
+			<div class="main-block bg-blue">
+				<div class="objective">
+					<h3>Welcome</h3>
+					<div class="objective-content">
+						<p>I'm a backend web developer currently living in Bristol, UK. This website contains my contact details, online resume and links to a few of my projects.</p>
+                        <p>I specialise in <strong>Django</strong> and <strong>Python</strong> but also have some experience with <strong>Scala</strong> and <strong>PHP</strong>.</p>
+					</div>
+				</div>
+				<hr>
+				<!-- Skill -->
+				<div class="skill">
+					<h3>Skills</h3>
+					<!-- Skill Content -->
+					<div class="skill-content">
+						<span class="big-circle">Django<span class="small-circle bg-white">100</span></span>
+						<span class="big-circle">Python<span class="small-circle bg-white">90</span></span>
+                        <span class="big-circle">Linux<span class="small-circle bg-white">75</span></span>
+                        <span class="big-circle">PHP<span class="small-circle bg-white">70</span></span>
+                        <span class="big-circle">Scala<span class="small-circle bg-white">40</span></span>
+						<span class="big-circle">HTML<span class="small-circle bg-white">40</span></span>
+						<span class="big-circle">CSS<span class="small-circle bg-white">40</span></span>
+					</div>
+				</div>
+				<hr>
+				<!-- Experience -->
+				<div class="experience">
+					<h3>Experience</h3>
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<!-- Experience Item -->
+							<div class="experience-item">
+								<!-- Experience Detail -->
+								<div class="experience-detail">
+									<h6>[ Jan 2013 To Present ]</h6>
+									<h4>Sr. Developer at Nomensa</h4>
+								</div>
+								<p>Working with Django to deliver long-term, continuous delivery of features to customer's web apps.</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="experience-item">
+								<!-- Experience Detail -->
+								<div class="experience-detail">
+									<h6>[ Apr 2011 To Dec 2012 ]</h6>
+									<h4>Contractor at Aviva</h4>
+								</div>
+								<p>Contractor working on a number of enterprise Django and Python services across the Aviva group.</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="experience-item">
+								<!-- Experience Detail -->
+								<div class="experience-detail">
+									<h6>[ Sep 2009 To Dec 2012 ]</h6>
+									<h4>Freelance Developer</h4>
+								</div>
+								<p>Freelancer working for digital agencies and as a sub-contractor, primarily around Birmingham.</p>
+							</div>
+						</div>
+                    </div>
+                    <div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="experience-item">
+								<!-- Experience Detail -->
+								<div class="experience-detail">
+									<h6>[ Nov 2008 To Aug 2009 ]</h6>
+									<h4>Lead Developer at 383 Project</h4>
+								</div>
+								<p>Working with Wordpress and Django to build websites.</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="experience-item">
+								<!-- Experience Detail -->
+								<div class="experience-detail">
+									<h6>[ Oct 2007 To Oct 2008 ]</h6>
+									<h4>Developer at Sitedesign.net</h4>
+								</div>
+								<p>Junior-level role building CMS, ecommerce and CRMs with Django and PHP.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<!-- Projects -->
+				<div class="project">
+					<h3>Projects</h3>
+					<div class="row">
+                        <div class="col-md-12">
+                            <h4>Django Image Dump</h4>
+                            <p>
+                                This was a quick project that gives me a simple way to upload and share image files.
+                            </p>
+                            <p>
+                                There are many free sites that let you upload and share images but I have reservations about copyright
+                                and feel the only way to really ensure I retain control of my stuff is to host it myself.
+                            </p>
+                            <p>
+                                This is a Django app that lets me drag files off my desktop in to the browser for upload to the web.
+                                Every image gets a short sharing URL that is unpredictable and unique due to using DES to generate it.
+                            </p>
+                            <p><a href="https://github.com/danux/django-image-dump"><span class="label label-primary"><i class="fa fa-github"></i> View source</span></a></p>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col-md-12">
+                            <h4>Django Shorty</h4>
+                            <p>
+                                Django Shorty provides a templatetag that can be used in any Django template to provide a shortened URL to
+                                the page.
+                            </p>
+                            <p>
+                                It uses base 62 encoding to keep the URL short and can be installed in to any Django project.
+                            </p>
+                            <p><a href="https://github.com/danux/django-shorty"><span class="label label-primary"><i class="fa fa-github"></i> View source</span></a></p>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col-md-12">
+                            <h4>Django Holding Page</h4>
+                            <p>
+                                I quite often buy domains and put this holding page app on them until they're ready. It's a simple form
+                                to capture names and emails but it saves me quite a bit of work each time.
+                            </p>
+                            <p>
+                                It's also available on PyPI: <a href="https://pypi.python.org/pypi/django-holding-page/">https://pypi.python.org/pypi/django-holding-page/</a>
+                            </p>
+                            <p><a href="https://github.com/danux/django-holding-page"><span class="label label-primary"><i class="fa fa-github"></i> View source</span></a></p>
+                        </div>
+                    </div>
+				</div>
+				<hr />
+				
+				<!-- Copyright -->
+				<div class="copy white">
+					Copyright &copy; - 2015 - <a href="#">Daniel Davies</a>
+				</div>
+			</div>
+			<!-- Clearfix -->
+			<div class="clearfix"></div>
+		</div>
+		<!-- Resume Ends -->
+		
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="{% static 'js/jquery.js' %}"></script>
+		<!-- Bootstrap JS -->
+		<script src="{% static 'js/bootstrap.min.js' %}"></script>
+		<!-- Placeholder JS -->
+		<script src="{% static 'js/placeholder.js' %}"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="{% static 'js/respond.min.js' %}"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="{% static 'js/html5shiv.js' %}"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-62123962-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+	</body>	
+</html>
