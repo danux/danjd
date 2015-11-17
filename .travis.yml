@@ -11,6 +11,6 @@ install:
 before_script:
   - "flake8 . --config=flake8"
 script:
-  - "coverage run manage.py test"
+  - "coverage run manage.py test --settings=app.settings"
 after_success: coveralls
 sudo: false
