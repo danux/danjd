@@ -64,11 +64,11 @@
                 </div>
 			</div>
 			<!-- Main -->
-			<div class="main-block bg-blue">
+			<div class="main-block bg-green">
 				<div class="objective">
 					<h3>Welcome</h3>
 					<div class="objective-content">
-						<p>I'm a backend web developer currently living in Bristol, UK. This website contains my contact details, online resume and links to a few of my projects.</p>
+						<p>I'm a backend web developer currently living in Bristol, UK. This website holds my contact details, online resume and links to a few of my projects.</p>
                         <p>I specialise in <strong>Django</strong> and <strong>Python</strong> but also have some experience with <strong>Scala</strong> and <strong>PHP</strong>.</p>
 					</div>
 				</div>
@@ -76,23 +76,28 @@
 				<!-- Skill -->
 				<div class="skill">
 					<h3>Skills</h3>
-					<!-- Skill Content -->
-					<div class="skill-content">
-						<span class="big-circle">Django<span class="small-circle bg-white">100</span></span>
-						<span class="big-circle">Python<span class="small-circle bg-white">90</span></span>
-                        <span class="big-circle">Linux<span class="small-circle bg-white">75</span></span>
-                        <span class="big-circle">PHP<span class="small-circle bg-white">70</span></span>
-                        <span class="big-circle">Scala<span class="small-circle bg-white">40</span></span>
-						<span class="big-circle">HTML<span class="small-circle bg-white">40</span></span>
-						<span class="big-circle">CSS<span class="small-circle bg-white">40</span></span>
-					</div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+                            <!-- Skill Content -->
+                            <div class="skill-content">
+                                <span class="big-circle">Django<span class="small-circle bg-white">100</span></span>
+                                <span class="big-circle">Python<span class="small-circle bg-white">90</span></span>
+                                <span class="big-circle">Linux<span class="small-circle bg-white">75</span></span>
+                                <span class="big-circle">PHP<span class="small-circle bg-white">70</span></span>
+                                <span class="big-circle">Scala<span class="small-circle bg-white">40</span></span>
+                                <span class="big-circle">HTML<span class="small-circle bg-white">40</span></span>
+                                <span class="big-circle">CSS<span class="small-circle bg-white">40</span></span>
+                                <span class="big-circle">Perl<span class="small-circle bg-white">30</span></span>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 				<hr>
 				<!-- Experience -->
 				<div class="experience">
 					<h3>Experience</h3>
 					<div class="row">
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-4 col-sm-12">
 							<!-- Experience Item -->
 							<div class="experience-item">
 								<!-- Experience Detail -->
@@ -103,7 +108,7 @@
 								<p>Working with Django to deliver long-term, continuous delivery of features to customer's web apps.</p>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-4 col-sm-12">
 							<div class="experience-item">
 								<!-- Experience Detail -->
 								<div class="experience-detail">
@@ -113,7 +118,7 @@
 								<p>Contractor working on a number of enterprise Django and Python services across the Aviva group.</p>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-4 col-sm-12">
 							<div class="experience-item">
 								<!-- Experience Detail -->
 								<div class="experience-detail">
@@ -125,7 +130,7 @@
 						</div>
                     </div>
                     <div class="row">
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-4 col-sm-12">
 							<div class="experience-item">
 								<!-- Experience Detail -->
 								<div class="experience-detail">
@@ -135,7 +140,7 @@
 								<p>Working with Wordpress and Django to build websites.</p>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-4">
+						<div class="col-md-4 col-sm-12">
 							<div class="experience-item">
 								<!-- Experience Detail -->
 								<div class="experience-detail">
@@ -153,6 +158,13 @@
 					<h3>Projects</h3>
 					<div class="row">
                         <div class="col-md-12">
+                            <p>
+                                I actively support these projects and they are currently working on Python 3.5 and Django 1.8. They are all available to view on Github.
+                            </p>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col-md-12">
                             <h4>Django Image Dump</h4>
                             <p>
                                 This was a quick project that gives me a simple way to upload and share image files.
@@ -165,7 +177,7 @@
                                 This is a Django app that lets me drag files off my desktop in to the browser for upload to the web.
                                 Every image gets a short sharing URL that is unpredictable and unique due to using DES to generate it.
                             </p>
-                            <p><a href="https://github.com/danux/django-image-dump"><span class="label label-primary"><i class="fa fa-github"></i> View source</span></a></p>
+                            <p><a class="btn btn-xs btn-grey black" href="https://github.com/danux/django-image-dump"><i class="fa fa-github"></i> View source</a></p>
                         </div>
                     </div>
 					<div class="row">
@@ -178,7 +190,7 @@
                             <p>
                                 It uses base 62 encoding to keep the URL short and can be installed in to any Django project.
                             </p>
-                            <p><a href="https://github.com/danux/django-shorty"><span class="label label-primary"><i class="fa fa-github"></i> View source</span></a></p>
+                            <p><a class="btn btn-xs btn-grey black" href="https://github.com/danux/django-shorty"><i class="fa fa-github"></i> View source</a></p>
                         </div>
                     </div>
 					<div class="row">
@@ -191,7 +203,17 @@
                             <p>
                                 It's also available on PyPI: <a href="https://pypi.python.org/pypi/django-holding-page/">https://pypi.python.org/pypi/django-holding-page/</a>
                             </p>
-                            <p><a href="https://github.com/danux/django-holding-page"><span class="label label-primary"><i class="fa fa-github"></i> View source</span></a></p>
+                            <p><a class="btn btn-xs btn-grey black" href="https://github.com/danux/django-holding-page"><i class="fa fa-github"></i> View source</a></p>
+                        </div>
+                    </div>
+					<div class="row">
+                        <div class="col-md-12">
+                            <h4>Shopping Cart</h4>
+                            <p>
+                                A very basic shopping cart class that I created when I was first learning Python. I like to keep it up to date and this was one of
+                                the first projects I upgraded to Python 3.
+                            </p>
+                            <p><a class="btn btn-xs btn-grey black" href="https://github.com/danux/shopping_cart"><i class="fa fa-github"></i> View source</a></p>
                         </div>
                     </div>
 				</div>
