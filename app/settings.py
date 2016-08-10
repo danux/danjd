@@ -102,3 +102,8 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, "app", "static"),
                     )
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
+
+# CV app
+INSTALLED_APPS += (
+    'cv',
+)

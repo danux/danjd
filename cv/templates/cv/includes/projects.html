@@ -1,0 +1,16 @@
+{% load i18n %}
+
+
+<!-- Projects -->
+<div class="project">
+    <h3>Personal Projects</h3>
+    <div class="row">
+        {% for project in projects %}
+            {% if forloop.counter0|divisibleby:2 %}
+                </div>
+                <div class="row">
+            {% endif %}
+            {% include 'cv/includes/project-entry.html' %}
+        {% endfor %}
+    </div>
+</div>

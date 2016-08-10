@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load i18n static %}
+
+
+{% block content %}
+<!-- Resume Starts -->
+<div class="resume">
+    {% include 'cv/includes/sidebar.html' %}
+
+    <!-- Main -->
+    <div class="main-block bg-orange">
+
+        <!-- Content -->
+        {% include 'cv/includes/intro.html' %}
+        <hr>
+        {% include 'cv/includes/skills.html' %}
+        <hr>
+        {% include 'cv/includes/experience.html' %}
+        <hr>
+        {% include 'cv/includes/projects.html' %}
+        <hr/>
+
+        <!-- Copyright -->
+        <div class="copy white">
+            Copyright &copy; - 2016 - Daniel Davies
+        </div>
+
+    </div>
+
+    <!-- Clearfix -->
+    <div class="clearfix"></div>
+</div>
+<!-- Resume Ends -->
+{% endblock content %}
