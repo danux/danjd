@@ -110,3 +110,4 @@ crashlytics-build.properties
 /media/
 /static/
 *.sqlite
+/ansible/
