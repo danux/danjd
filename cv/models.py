@@ -21,7 +21,7 @@ class Job(models.Model):
     """
     A skill has a name and a skill level.
     """
-    title = models.CharField(max_length=30)
+    title = models.CharField(max_length=150)
     start_date = models.DateField()
     end_date = models.DateField(blank=True, null=True)
     description = models.TextField()
@@ -37,7 +37,7 @@ class Project(models.Model):
     """
     A skill has a name and a skill level.
     """
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=150)
     description = models.TextField()
     github_url = models.URLField()
     order = models.IntegerField()
