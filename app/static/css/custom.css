@@ -738,3 +738,7 @@ hr {
 		margin-bottom:20px;
 	}
 }
+a.link,
+span.link {
+	text-decoration: underline;
+}

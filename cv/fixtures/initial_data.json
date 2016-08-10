@@ -1,0 +1,201 @@
+[
+  {
+    "model": "cv.skill",
+    "pk": 1,
+    "fields": {
+      "name": "Django",
+      "skill_level": 100,
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.skill",
+    "pk": 2,
+    "fields": {
+      "name": "Linux",
+      "skill_level": 90,
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.skill",
+    "pk": 3,
+    "fields": {
+      "name": "Python",
+      "skill_level": 95,
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.skill",
+    "pk": 4,
+    "fields": {
+      "name": "PHP",
+      "skill_level": 80,
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.skill",
+    "pk": 5,
+    "fields": {
+      "name": "Scala",
+      "skill_level": 40,
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.skill",
+    "pk": 6,
+    "fields": {
+      "name": "HTML",
+      "skill_level": 40,
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.skill",
+    "pk": 7,
+    "fields": {
+      "name": "CSS",
+      "skill_level": 40,
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.skill",
+    "pk": 8,
+    "fields": {
+      "name": "Perl",
+      "skill_level": 30,
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.job",
+    "pk": 1,
+    "fields": {
+      "title": "Developer at Sitedesign.net",
+      "start_date": "2007-09-01",
+      "end_date": "2008-09-01",
+      "description": "Junior-level role building CMS, e-commerce and CRMs with Django and PHP.",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.job",
+    "pk": 2,
+    "fields": {
+      "title": "Lead Developer at 383 Project",
+      "start_date": "2008-09-01",
+      "end_date": "2009-09-01",
+      "description": "Working with Wordpress and Django to build websites.",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.job",
+    "pk": 3,
+    "fields": {
+      "title": "Freelance Developer",
+      "start_date": "2009-09-01",
+      "end_date": "2012-12-30",
+      "description": "Freelancer working for digital agencies and as a sub-contractor, primarily around Birmingham.",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.job",
+    "pk": 4,
+    "fields": {
+      "title": "Contractor at Aviva",
+      "start_date": "2011-04-01",
+      "end_date": "2012-12-30",
+      "description": "Contractor working on a number of enterprise Django and Python services across the Aviva group.",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.job",
+    "pk": 5,
+    "fields": {
+      "title": "Sr. Developer at Nomensa",
+      "start_date": "2013-01-01",
+      "end_date": "2016-01-14",
+      "description": "Working with Django to deliver long-term, continuous delivery of features to customer's web apps.",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.job",
+    "pk": 6,
+    "fields": {
+      "title": "Sr. Developer in Oil & Petrol Industry",
+      "start_date": "2016-01-16",
+      "description": "Leading Django team developing web interfaces and APIs for petrol pumps to authorise filling and record transactions.",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.project",
+    "pk": 1,
+    "fields": {
+      "name": "Django Image Dump",
+      "github_url": "https://github.com/danux/django-image-dump",
+      "order": 1,
+      "description": "<p>This was a quick project that gives me a simple way to upload and share image files.</p><p>There are many free sites that let you upload and share images but I have reservations about copyright and feel the only way to really ensure I retain control of my stuff is to host it myself.</p><p>This is a Django app that lets me drag files off my desktop in to the browser for upload to theweb.Every image gets a short sharing URL that is unpredictable and unique due to using DES togenerate it.</p>",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.project",
+    "pk": 2,
+    "fields": {
+      "name": "Django Shorty",
+      "github_url": "https://github.com/danux/django-shorty",
+      "order": 2,
+      "description": "<p>Django Shorty provides a templatetag that can be used in any Django template to provide ashortened URL to the page.</p><p>It uses base 62 encoding to keep the URL short and can be installed in to any Django project.</p>",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.project",
+    "pk": 3,
+    "fields": {
+      "name": "Django Holding Page",
+      "github_url": "https://github.com/danux/django-holding-page",
+      "order": 3,
+      "description": "<p>I quite often buy domains and put this holding page app on them until they're ready. It's a simple form to capture names and emails but it saves me quite a bit of work each time.</p><p>It's also available on PyPI: <a class=\"link\" href=\"https://pypi.python.org/pypi/django-holding-page/\">https://pypi.python.org/pypi/django-holding-page/</a></p>",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  },
+  {
+    "model": "cv.project",
+    "pk": 4,
+    "fields": {
+      "name": "Shopping Cart",
+      "github_url": "https://github.com/danux/shopping_cart",
+      "order": 4,
+      "description": "<p>A very basic shopping cart class that I created when I was first learning Python. I like to keep it up to date and this was one of the first projects I upgraded to Python 3.</p>",
+      "date_created": "2016-08-10T15:06:01.240Z",
+      "date_modified": "2016-08-10T15:06:01.240Z"
+    }
+  }
+]

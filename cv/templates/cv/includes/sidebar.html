@@ -1,0 +1,54 @@
+{% load i18n static %}
+
+
+<!-- Sidebar -->
+<div class="r-sidebar">
+    <div class="r-sidebar-item">
+        <!-- Sidebar Image -->
+        <div class="img">
+            <a href="#"><img src="{% static 'img/daniel-davies.jpg' %}" alt="{% trans 'An image of Daniel Davies' %}" class="img-responsive"/></a>
+        </div>
+        <!-- Name -->
+        <div class="name">
+            <h3>Daniel Davies</h3>
+            <small>{% trans 'IT Professional' %}</small>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!-- Detail -->
+    <div class="r-detail">
+        <table>
+            <tr>
+                <th>{% trans 'Name' %}</th>
+                <td>{% trans 'Daniel Davies' %}</td>
+            </tr>
+            <tr>
+                <th>{% trans 'Studied' %}</th>
+                <td>{% trans 'Computer Science' %}</td>
+            </tr>
+            <tr>
+                <th>{% trans 'Qualification' %}</th>
+                <td>{% trans 'BSc hons' %}</td>
+            </tr>
+            <tr>
+                <th>{% trans 'Employed' %}</th>
+                <td>{% trans 'Since 2007' %}</td>
+            </tr>
+            <tr>
+                <th>{% trans 'Email' %}</th>
+                <td>danieldavies127@gmail.com</td>
+            </tr>
+            <tr>
+                <th>{% trans 'Location' %}</th>
+                <td>{% trans 'North West, England, UK' %}</td>
+            </tr>
+        </table>
+    </div>
+    <!-- Social -->
+    <div class="social">
+        <a href="https://github.com/danux" class="github"><i class="fa fa-github"></i></a>
+        <a href="https://twitter.com/danux" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://uk.linkedin.com/in/danux" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/danux86" class="facebook"><i class="fa fa-facebook"></i></a>
+    </div>
+</div>

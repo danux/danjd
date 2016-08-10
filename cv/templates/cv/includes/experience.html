@@ -1,0 +1,22 @@
+{% load i18n %}
+
+
+<!-- Experience -->
+<div class="experience">
+    <h3>{% trans 'Employment History' %}</h3>
+    <p>
+        {% blocktrans %}
+        To see my most recent employment and full details of previous employment please <a class="link" href="mailto:danieldavies127@gmail.com">request a copy of my CV</a>.
+        {% endblocktrans %}
+    </p>
+
+    <div class="row">
+        {%  for job in jobs %}
+            {% if forloop.counter0|divisibleby:3 and not forloop.last %}
+                </div>
+                <div class="row">
+            {% endif %}
+            {% include 'cv/includes/job-entry.html' %}
+        {% endfor %}
+    </div>
+</div>
