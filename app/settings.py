@@ -106,3 +106,16 @@ MEDIA_URL = '/media/'
 INSTALLED_APPS += (
     'cv',
 )
+
+# Debug toolbar
+INSTALLED_APPS += (
+    'debug_toolbar',
+)
+
+# Cache
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '127.0.0.1:11211',
+    }
+}
